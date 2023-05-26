@@ -1,0 +1,254 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+  
+}
+.allThings{
+    
+    background: linear-gradient(to bottom, #101010 1%,#4e4e4e 10%, #4e4e4e 20%,#000000 50%, #101010 100%);
+    margin: 6%;
+    border-radius: 8px;
+    position:absolute;
+    box-shadow: 0px 3px 25px rgb(81, 81, 86), 0px 3px 20px rgb(80, 79, 79);
+  
+    
+}
+
+.menu{
+     display: flex; 
+     position: absolute;
+     justify-content: center;
+     column-gap: 100px;
+     background-color: white;
+     width: 97.89%;
+     margin-top: 25px;
+     margin-left: 15px;
+     border-radius:8px;
+     background: linear-gradient(to bottom, #101010 1%,#4e4e4e 10%, #4e4e4e 20%,#000000 50%, #383535 100%);
+   
+}
+.menuList {
+  background-color: #58595b;
+  color: rgb(170, 165, 165);
+  border-radius: 8px;
+  border: none;
+  height: 35px;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  width: 8%;
+/* padding: 0px; */
+  
+
+}
+
+h3{
+    /* padding-bottom: 15px; */
+    margin-top: 7%;
+}
+
+.piano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-top: 135px;
+    
+}
+.whiteButton{
+    height: 242px;
+    width: 43px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    border-width: 0 1px 1px 1px;
+    border-color: #000000;
+    background: linear-gradient(to bottom, #91a3ad 0%, #f5cece 85%,#785f5f 87%,#a9a5a5 89%, #c1c2c3 100%);
+    z-index: 4;
+}
+
+p{
+    margin-top: 400%;
+    color: #797070ad;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: 900;
+
+}
+
+.midBlackButtonCustom{
+    position: relative;
+    color: rgba(255, 255, 255, 0.59);
+    height: 139.10px;
+    width: 30px;
+    background: linear-gradient(to bottom, #000010 0%, #482f2f 80%,#ece4e4 81%,#000000 84%, #101010 100%);
+    border: none;
+    border-radius: 0 0 15px 15px;
+    margin: 0 -14.8px 103.839px -14.8px;
+    z-index: 7;
+   
+}
+.myDet{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dot{
+    height: 6px;
+    width: 6px;
+    background-color: black;
+    margin: 1px;
+}
+
+table{
+    margin-left: 60px;
+    margin-top: 1%;
+    background-image: radial-gradient(rgba(106, 104, 104, 0.652) 5%, rgba(87, 88, 87, 0.679) 15%, rgba(72, 72, 73, 0.597) 60%);
+    box-shadow: -3px 2px 25px rgb(47, 47, 52), 1px 1px 3px rgb(80, 79, 79);
+}
+
+.speaker{
+    margin-top: 0.9%;
+    display: flex;
+    position:absolute;
+    z-index: 15;
+    margin-left:-20px;
+   padding: 1px;
+} 
+.tableSecond{
+    position: absolute;
+    margin-left: 1125.123456px;
+    transform: scaleX(-1);
+   
+}
+ 
+section{
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#4b8ac4,#274642);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+section .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+section .back div{
+    position: absolute;
+    display: block;
+}
+
+section .back div:nth-child(1){
+    left: 20%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+
+section .back div:nth-child(2){
+    left: 50%;
+    animation: animate 20s linear infinite;
+    animation-delay: -5s;
+}
+section .back div:nth-child(3){
+    left: 70%;
+    animation: animate 15s linear infinite;
+    animation-delay: 0s;
+}
+section .back div:nth-child(4){
+    left: 0%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+}
+section .back div:nth-child(5){
+    left: 85%;
+    animation: animate 18s linear infinite;
+    animation-delay: -10s;
+}
+section .back div:nth-child(6){
+    left: 0%;
+    animation: animate 12s linear infinite;
+    
+}
+section .back div:nth-child(7){
+    left: 15%;
+    animation: animate 14s linear infinite;
+   
+}
+section .back div:nth-child(8){
+    left: 60%;
+    animation: animate 15s linear infinite;
+   
+}
+
+@keyframes animate{
+    0%
+    {
+        opacity: 0;
+        top: -10%;
+        transform: translate(20px) rotate(0deg);
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        transform: translateX(-20px) rotate(45deg);
+    }
+    40%{
+        transform: translateX(-20px) rotate(90deg);
+    }
+    60%{
+        transform: translateX(20px) rotate(180deg);
+    }
+    80%{
+        transform: translateX(-20px) rotate(180deg);
+    }
+    100%{
+        top:110%;
+        transform: translateX(-20px) rotate(225deg);
+    }
+} 
+
+.set2{
+    transform: scale(2) rotateY('180deg');
+    filter: blur(1px);
+}
+
+.set3{
+    transform: scale(0.8) rotateY('180deg');
+    filter: blur(3px);
+}
+
+
+.blackPressed{
+
+    color: rgba(255, 255, 255, 0.59);
+    background: linear-gradient(to bottom, #181821 0%, #a3a90e 80%,#ece4e4 81%,#1e1a1a 84%, #395235 100%);
+    box-shadow: 0px 3px 4px 0px #2627264b;
+
+    z-index: 300;
+   
+}
+
+.whitePressed{
+    color: rgba(255, 255, 255, 0.59);
+    background: linear-gradient(to bottom, #39395d 0%, #eae4e4 80%,#f3f0f0 81%,#3d3c3c 84%, #1a1717 100%);
+
+
+    z-index: 1;
+}
+
+
+.funButton{
+    background-color: yellow;
+}

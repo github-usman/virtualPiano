@@ -1,31 +1,24 @@
-# Foobar
+# Virtual Piano
 
-Foobar is a Python library for dealing with word pluralization.
+A virtual piano is an application designed to simulate playing a piano on a computer. The virtual piano is played using a keyboard and/or mouse and typically comes with many features found on a digital piano.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
 
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```
+You can play using mouse button and/or using your keyboard keys as mention on the piano keys, with chord or single
 ```
 
-## Contributing
+# Some Screenshots
+
+## You can play with chords
+![alt text](./gitHub/Screenshot%202023-05-26%20125412.png)
+## You can Record your nodes but this feature is not fully functioning
+![alt text](./gitHub/Screenshot%202023-05-26%20124934.png)
+
+![alt text](./gitHub/Screenshot%202023-05-26%20125454.png)
+![alt text](./gitHub/Screenshot%202023-05-26%20125533.png)
+## Contribute
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.

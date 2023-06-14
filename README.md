@@ -13,7 +13,7 @@ You can play using mouse button and/or using your keyboard keys as mention on th
 
 ## You can play with chords
 ![alt text](./gitHub/Screenshot%202023-05-26%20125412.png)
-## You can Record your nodes but this feature is not fully functioning
+## You can Record your nodes but this feature is not fully functioning I'm working on it.
 ![alt text](./gitHub/Screenshot%202023-05-26%20124934.png)
 
 ![alt text](./gitHub/Screenshot%202023-05-26%20125454.png)

@@ -359,6 +359,18 @@ function pres(classValue){
         activeButton.classList.remove("funButton")
         },100);
 }
+var preloader = document.getElementById('loading');
+function myFunction(){
+   
+    setTimeout(function (){
+  
+        // Something you want delayed.
+        preloader.style.display = 'none';
+                  
+      }, 2000);
+   
+
+}
 
 
 

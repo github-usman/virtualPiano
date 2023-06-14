@@ -2,6 +2,15 @@
     
     box-sizing: border-box;
 }
+
+#loading{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    background: #fff url('https://media.giphy.com/media/kUTME7ABmhYg5J3psM/giphy.gif')
+    no-repeat center;
+    /* <iframe src="https://giphy.com/embed/kUTME7ABmhYg5J3psM" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/loading-load-builtbybritt-kUTME7ABmhYg5J3psM">via GIPHY</a></p> */
+}
 body{
     padding: 0;
     margin: 0;
